@@ -22,6 +22,7 @@
 		F038B01418B7FDCA00F6732C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038AFF818B7FDCA00F6732C /* CoreData.framework */; };
 		F038B01C18B7FDCA00F6732C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F038B01A18B7FDCA00F6732C /* InfoPlist.strings */; };
 		F038B01E18B7FDCA00F6732C /* LowesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F038B01D18B7FDCA00F6732C /* LowesTestTests.m */; };
+		F038B02918B7FE0B00F6732C /* PurchaseSuggestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F038B02818B7FE0B00F6732C /* PurchaseSuggestionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F038B01918B7FDCA00F6732C /* LowesTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LowesTestTests-Info.plist"; sourceTree = "<group>"; };
 		F038B01B18B7FDCA00F6732C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F038B01D18B7FDCA00F6732C /* LowesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LowesTestTests.m; sourceTree = "<group>"; };
+		F038B02718B7FE0B00F6732C /* PurchaseSuggestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseSuggestionManager.h; sourceTree = "<group>"; };
+		F038B02818B7FE0B00F6732C /* PurchaseSuggestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseSuggestionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				F038B00318B7FDCA00F6732C /* AppDelegate.h */,
 				F038B00418B7FDCA00F6732C /* AppDelegate.m */,
+				F038B02718B7FE0B00F6732C /* PurchaseSuggestionManager.h */,
+				F038B02818B7FE0B00F6732C /* PurchaseSuggestionManager.m */,
 				F038B00918B7FDCA00F6732C /* Images.xcassets */,
 				F038B00618B7FDCA00F6732C /* LowesTest.xcdatamodeld */,
 				F038AFFB18B7FDCA00F6732C /* Supporting Files */,
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F038B02918B7FE0B00F6732C /* PurchaseSuggestionManager.m in Sources */,
 				F038B00518B7FDCA00F6732C /* AppDelegate.m in Sources */,
 				F038B00118B7FDCA00F6732C /* main.m in Sources */,
 				F038B00818B7FDCA00F6732C /* LowesTest.xcdatamodeld in Sources */,
